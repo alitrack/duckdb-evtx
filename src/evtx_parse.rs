@@ -204,7 +204,7 @@ mod tests {
     fn sample() -> Vec<u8> {
         std::fs::read(concat!(
             env!("CARGO_MANIFEST_DIR"),
-            "/../../test/sql/data/sample-security.evtx"
+            "/test/data/sample-security.evtx"
         ))
         .expect("sample fixture must exist")
     }
